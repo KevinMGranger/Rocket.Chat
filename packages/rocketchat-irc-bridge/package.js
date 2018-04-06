@@ -13,7 +13,9 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.6.1.1');
   api.use('ecmascript');
-  api.mainModule('rocketchat-irc-bridge.js');
+  api.use('rocketchat:lib');
+  // api.addFiles('servy.js', 'server');
+  api.mainModule('rocketchat-irc-bridge.js', 'server');
 });
 
 Package.onTest(function(api) {

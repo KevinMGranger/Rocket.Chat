@@ -123,6 +123,7 @@ reactive-dict@1.2.0
 reactive-var@1.0.11
 reload@1.2.0
 retry@1.1.0
+rocketchat-irc-bridge@0.0.1
 rocketchat:2fa@0.0.1
 rocketchat:accounts@0.0.1
 rocketchat:action-links@0.0.1
